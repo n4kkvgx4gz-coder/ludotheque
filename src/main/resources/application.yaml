@@ -1,3 +1,18 @@
 spring:
   application:
     name: ludotheque
+
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=LUDOTHEQUE_BD;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: Pa$$w0rd
+
+  jpa:
+    show-sql: true
+
+    hibernate:
+      ddl-auto: create
+
+    properties:
+      hibernate:
+        format_sql: true

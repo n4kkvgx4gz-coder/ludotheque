@@ -26,6 +26,6 @@ public class Facture {
     private LocalDate datePaiement;
 
     @OneToOne
-    @Column(name = "no_location", nullable = false)
+    @JoinColumn(name = "no_location", nullable = false)
     private Location location;
 }

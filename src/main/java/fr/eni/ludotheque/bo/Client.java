@@ -31,7 +31,7 @@ public class Client {
 
     @NonNull
     @Column(name = "no_telephone")
-    private int noTelephone;
+    private String noTelephone;
 
 
 }
