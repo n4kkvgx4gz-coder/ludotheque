@@ -1,4 +1,4 @@
-package fr.eni.ludotheque.bo;
+*/package fr.eni.ludotheque.bo;
 
 
 import jakarta.persistence.*;
