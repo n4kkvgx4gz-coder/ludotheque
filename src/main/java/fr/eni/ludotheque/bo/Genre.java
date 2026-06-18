@@ -22,4 +22,5 @@ public class Genre {
 
     @NonNull
     private String libelle;
+
 }
