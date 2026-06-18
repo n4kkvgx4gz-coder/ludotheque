@@ -3,6 +3,7 @@ package fr.eni.ludotheque.dal;
 
 import fr.eni.ludotheque.bo.Genre;
 import fr.eni.ludotheque.bo.Jeu;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,6 +22,7 @@ public class JeuGenreRepositoryTest {
 
 
     @Test
+    @DisplayName("Test positif de création d'attribution de genres à un jeu")
     //@Transactional //Rollback = retour en arrière annule l'insert crée en test
     void testJeuGenreRepository() {
 
